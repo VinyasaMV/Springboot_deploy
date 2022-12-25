@@ -1,6 +1,7 @@
 package com.luv2code.springboot.thymeleafdemo;
 
 import org.junit.Test;
+import static org.junit.Assert.*;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -9,9 +10,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class ThymeleafdemoApplicationTests {
 
-	/*@Test
-	public void contextLoads() {
+    @Test
+	public void empl() {
+		assertEquals("vinyasa","vinyasa");
 	}
-*/
+
 }
 
